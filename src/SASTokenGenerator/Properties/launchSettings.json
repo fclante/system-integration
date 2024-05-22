@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "SASTokenGenerator": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7043",
+      "launchBrowser": false
+    }
+  }
+}
