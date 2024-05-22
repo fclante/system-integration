@@ -22,7 +22,7 @@ namespace SASTokenGenerator
 
             string namespaceUrl = "https://frey-school.servicebus.windows.net/tracker";
             string keyName = "ReadWriteToEventHub";
-            string key = "u4hRMZlAbD7arGUnajQowy3nBS3aJ+KBd+AEhJ0Fq3g=";
+            string key = "[REDACTED]";
             string sasToken = SasTokenGenerator.GenerateSasToken(namespaceUrl, keyName, key);
 
             return new OkObjectResult(new { token = sasToken });

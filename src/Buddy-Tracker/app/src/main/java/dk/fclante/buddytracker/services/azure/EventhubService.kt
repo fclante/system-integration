@@ -14,7 +14,7 @@ open class EventhubService() {
     open fun <T> publishEvents(eventMessages: List<EventMessage<T>>) {
 
         val connectionString =
-            "Endpoint=sb://frey-school.servicebus.windows.net/;SharedAccessKeyName=ReadWriteToEventHub;SharedAccessKey=u4hRMZlAbD7arGUnajQowy3nBS3aJ+KBd+AEhJ0Fq3g=;EntityPath=tracker"
+            "Endpoint=sb://frey-school.servicebus.windows.net/;SharedAccessKeyName=ReadWriteToEventHub;SharedAccessKey=[REDACTED]=;EntityPath=tracker"
 
         val producer = EventHubClientBuilder()
             .connectionString(connectionString)
